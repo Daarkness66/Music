@@ -1,0 +1,41 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./assets/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+}
+.img{
+    max-width: 300px;
+    border-width: 5px;
+    border-style: hidden;
+    border-radius: 10px;
+}
+.container{
+    margin: auto;
+    align-content: center;
+    display:table;
+    text-align: center;
+    border-radius: 100%;
+}
+.formContainer{
+    max-width: 205px;
+    background-color: white;
+    padding: 45px;
+    float: none;
+}    
+.section{
+    padding: 0;
+    background-color: white;
+}
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}    
+input[type="submit"]{
+    color: white;
+    background-color: #0b1ae4;
+    font-weight: bold;
+}
